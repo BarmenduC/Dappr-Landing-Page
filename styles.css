@@ -111,12 +111,16 @@ input.SearchBar:focus{
     width: 5.7rem;
     display: flex;
     flex-direction: column;
-    float: right;
+    /* float: right; */
     margin-inline-end: 2px;;
     /* margin-top: 17rem; */
     /* margin-left: 6rem; */
     margin-right: 0rem;
     padding-left: 2rem;
+    position: sticky;
+    top: 100px;
+    margin-top:35vh;
+    float: right;
 }
 
 .iconcontainer{
